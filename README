@@ -1,0 +1,93 @@
+# Unit Converter Website
+
+A simple **Unit Converter Web Application** built using **HTML, CSS, and JavaScript**. This website allows users to convert values between different units of **Length, Weight, and Temperature** in an easy-to-use interface.
+
+---
+
+## 🚀 Features
+
+### 🔹 Length Conversion
+
+* Meter ↔ Kilometer
+* Meter ↔ Mile
+* Kilometer ↔ Mile
+
+### 🔹 Weight Conversion
+
+* Grams ↔ Kilograms
+* Grams ↔ Milligrams
+* Kilograms ↔ Milligrams
+
+### 🔹 Temperature Conversion
+
+* Celsius ↔ Fahrenheit
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5** – Structure of the webpage
+* **CSS3** – Styling and layout
+* **JavaScript (Vanilla JS)** – Conversion logic and interactivity
+
+---
+
+## 📂 Project Structure
+
+```
+unit-converter/
+│
+├── index.html      # Main HTML file
+├── styles.css      # CSS styling
+├── script.js       # JavaScript logic
+└── README.md       # Project documentation
+```
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a value in the input field
+2. Selects the **source unit** and **target unit**
+3. Clicks the **Convert** button
+4. The converted value is displayed instantly
+
+All conversions are done using **standard mathematical formulas**.
+
+---
+
+## 🧮 Example Conversions
+
+* **1 Kilometer → Meter** = 1000 m
+* **1 Mile → Kilometer** ≈ 1.609 km
+* **1000 Grams → Kilogram** = 1 kg
+* **0°C → Fahrenheit** = 32°F
+
+---
+
+## 📌 Notes
+
+* This project is intended for **learning and practice purposes**
+* Uses simple conditional logic for clarity
+* No external libraries or frameworks used
+
+---
+
+## ✅ Future Improvements
+
+* Add more units (cm, mm, inches, pounds, etc.)
+* Auto-convert without button click
+* Better UI design and responsiveness
+* Error handling for invalid inputs
+
+---
+
+## 👤 Author
+
+Developed as a **practice project** to understand JavaScript DOM manipulation and unit conversion logic.
+
+---
+
+## 📜 License
+
+This project is free to use for educational p
