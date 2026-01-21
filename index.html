@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit converter app</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body style="background-color: #9198a0;">
+    <h1 style="text-align: center; color:aqua"> UNIT CONVERTER APP</h1>
+    <div id="container">
+    <div id="ob">
+    <div id="o1">
+    <br>
+  <label style="font-family: 'Inter', sans-serif;color:blueviolet">
+    <b> LENGTH: </b>
+    <br>
+    <br>
+    <input type="number" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;" placeholder="ENTER LENGTH" id="len">
+    <select id="u1" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;">
+  <option value="meter">Meter</option>
+  <option value="kilometer">Kilometer</option>
+  <option value="mile">Mile</option>
+</select>
+
+  </label>
+
+  <br>
+  <br>
+  <label style="font-family: 'Inter', sans-serif;color:blueviolet">
+    <b> WEIGHT: </b>
+    <br>
+     <br>
+    <input type="number" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;" placeholder="ENTER LENGTH" id="wei">
+    <select id="u2" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;">
+  <option value="grams">grams</option>
+  <option value="kilograms">Kilograms</option>
+  <option value="milligrams">milligrams</option>
+</select>
+
+  </label>
+
+   <br>
+  <br>
+  <label style="font-family: 'Inter', sans-serif; color:blueviolet">
+   <b>  TEMPERATURE:</b>
+    <br>
+     <br>
+    <input type="number" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;" placeholder="ENTER LENGTH" id="temp">
+    <select id="u3" style="border: solid 1px; height:40px;border-color: black ;border-radius: 10px;">
+  <option value="celsius">celsius</option>
+  <option value="farenheit">farenheit</option>
+
+</select>
+
+  </label>
+  <br> 
+  <br>
+  <button id="br" style="background-color: blueviolet; width:75%;color: white; height: 40px; border-radius: 10px;">
+    CONVERT
+  </button>
+    </div>
+    <div id="o2">
+        <br>
+  <label style="font-family: 'Inter', sans-serif;color:blueviolet">
+    <b> CONVERTED LENGTH: </b>
+    <br>
+    <br>
+    <input type="number" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;"  id="conlen">
+     <select id="b1" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;">
+  <option value="meter">Meter</option>
+  <option value="kilometer">Kilometer</option>
+  <option value="mile">Mile</option>
+</select>
+
+  </label>
+
+  <br>
+  <br>
+  <br>
+  <label style="font-family: 'Inter', sans-serif;color:blueviolet">
+    <b> CONVERTED WEIGHT: </b>
+    <br>
+    <br>
+    <input type="number" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;"  id="conwei">
+    
+  <select id="b2" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;">
+  <option value="grams">grams</option>
+  <option value="kilograms">Kilograms</option>
+  <option value="milligrams">milligrams</option>
+</select>
+  </label>
+
+  <br>
+  <br>
+  <br>
+  <label style="font-family: 'Inter', sans-serif;color:blueviolet">
+    <b> CONVERTED TEMPERATURE: </b>
+    <br>
+    <br>
+    <input type="number" style="border: solid 1px; height:40px;border-color: black; border-radius: 10px;"  id="contemp">
+    
+ <select id="b3" style="border: solid 1px; height:40px;border-color: black ;border-radius: 10px;">
+  <option value="celsius">celsius</option>
+  <option value="farenheit">farenheit</option>
+
+</select>
+  </label>
+
+  <br>
+  <br>
+    </div>
+  
+    </div>
+
+    </div>
+
+      <script src="script.js"></script> 
+</body>
+</html
